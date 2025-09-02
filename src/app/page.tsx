@@ -4,6 +4,8 @@ import '../app/globals.css';
 import MyIcon from '../assets/latex.svg';
 import Matplotlib from '../assets/Matplotlib.svg';
 import Pandas from '../assets/pandas.svg';
+import Image from "next/image";
+
 
 export default function Home() {
   useEffect(() => {
@@ -203,7 +205,7 @@ export default function Home() {
                       className="hidden lg:block w-full h-[300px] rounded to-white overflow-hidden transition-transform duration-300 ease-in-out"
                       style={{ transform: 'translateY(40px)' }}
                     >
-                      <img src="https://media.licdn.com/dms/image/v2/D4E12AQHiXDfWPoVqbQ/article-cover_image-shrink_720_1280/B4EZb0D5h5GUAQ-/0/1747851385692?e=2147483647&v=beta&t=u6NACMvfE4w9iwJg_sVKpd-ACa8fz2B2E7FPxQx1pyQ"></img>
+                      <Image alt="" src="https://media.licdn.com/dms/image/v2/D4E12AQHiXDfWPoVqbQ/article-cover_image-shrink_720_1280/B4EZb0D5h5GUAQ-/0/1747851385692?e=2147483647&v=beta&t=u6NACMvfE4w9iwJg_sVKpd-ACa8fz2B2E7FPxQx1pyQ" width={1200} height={400}/>
 
                     </div>
                   </div>
@@ -280,7 +282,7 @@ export default function Home() {
                       className="hidden lg:block w-full h-[300px] rounded to-white overflow-hidden transition-transform duration-300 ease-in-out"
                       style={{ transform: 'translateY(40px)' }}
                     >
-                      <img src="https://static.vecteezy.com/system/resources/previews/002/056/890/non_2x/geometric-shapes-background-with-memphis-style-free-vector.jpg"></img>
+                      <Image alt="" src="https://static.vecteezy.com/system/resources/previews/002/056/890/non_2x/geometric-shapes-background-with-memphis-style-free-vector.jpg"   width={1200} height={400}/>
 
                     </div>
                   </div>
@@ -678,11 +680,8 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <img src="https://miro.medium.com/v2/resize:fit:1200/1*E4IIoarCsV0k79c2EM1r4w.jpeg"
-                      className="hidden lg:block w-full rounded h-[400px] overflow-hidden transition-transform duration-300 ease-in-out"
-
-                      style={{ transform: 'translateY(50px)' }}
-                    />
+                    <Image alt='' src="https://miro.medium.com/v2/resize:fit:1200/1*E4IIoarCsV0k79c2EM1r4w.jpeg"
+                      className="hidden lg:block w-full rounded h-[400px] overflow-hidden transition-transform duration-300 ease-in-out" style={{ transform: 'translateY(50px)' }} width={1200} height={400}/>
                   </div>
               </a>
             </div>
