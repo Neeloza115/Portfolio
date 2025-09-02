@@ -119,21 +119,21 @@ export default function Navbar() {
         </button>
         {dropdownOpen && 
         <div className="absolute flex top-full w-32 mt-2 p-4 gap-y-4 right-0 flex-col justify-center items-start font-medium bg-custom-light rounded-xl bg-opacity-5 text-sm border border-opacity-10 border-custom-light backdrop-blur" style={{ opacity: 1, willChange: "opacity, transform", transform: "none", transformOrigin: "100% 0% 0px" }}>
-          <a className="flex flex-row w-full justify-between items-center" rel="noopener noreferrer" href="https://www.github.com/aidanfroggatt" target="_blank">
+          <a className="flex flex-row w-full justify-between items-center" rel="noopener noreferrer" href="https://github.com/Neeloza115" target="_blank">
             <span className="flex flex-row justify-start items-center text-sm">GitHub</span>
             <svg stroke="currentColor" fill="currentColor" strokeWidth="0" version="1.1" viewBox="0 0 17 17" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ height: "0.875rem", width: "auto" }}>
               <g></g>
               <path d="M16 0.997v9.003h-1v-7.297l-10.317 10.297-0.707-0.708 10.315-10.295h-7.316v-1h9.025z"></path>
             </svg>
           </a>
-          <a className="flex flex-row w-full justify-between items-center" rel="noopener noreferrer" href="https://www.linkedin.com/in/aidanfroggatt" target="_blank">
+          <a className="flex flex-row w-full justify-between items-center" rel="noopener noreferrer" href="https://www.linkedin.com/in/neeloza" target="_blank">
             <span className="flex flex-row justify-start items-center text-sm">LinkedIn</span>
             <svg stroke="currentColor" fill="currentColor" strokeWidth="0" version="1.1" viewBox="0 0 17 17" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ height: "0.875rem", width: "auto" }}>
               <g></g>
               <path d="M16 0.997v9.003h-1v-7.297l-10.317 10.297-0.707-0.708 10.315-10.295h-7.316v-1h9.025z"></path>
             </svg>
           </a>
-          <a className="flex flex-row w-full justify-between items-center" rel="noopener noreferrer" href="https://firebasestorage.googleapis.com/v0/b/portfolio-aidan-froggatt.…ral_info%2FResume.pdf?alt=media&token=d0143a2e-ee1a-4029-96a9-f3a5f1588655" target="_blank">
+          <a className="flex flex-row w-full justify-between items-center" rel="noopener noreferrer" href="https://drive.google.com/file/d/14Wi9lySQ0zNB808BRiUmkknFA9Ya3_OU/view?usp=sharing" target="_blank">
             <span className="flex flex-row justify-start items-center text-sm">Resume</span>
             <svg stroke="currentColor" fill="currentColor" strokeWidth="0" version="1.1" viewBox="0 0 17 17" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ height: "0.875rem", width: "auto" }}>
               <g></g>
