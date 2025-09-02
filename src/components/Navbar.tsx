@@ -75,7 +75,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a className="relative z-10 flex items-center flex-row cursor-pointer mix-blend-difference text-sm px-3 py-2 gap-x-1 rounded-full hover:bg-white/10 backdrop-blur-md transition duration-300 ease-in-out" rel="noopener noreferrer" href="https://drive.google.com/file/d/1Ob0rx0vUboY8ksaWXqGsni8MP7L4Z9Tm/view?usp=sharing" target="_blank">
+            <a className="relative z-10 flex items-center flex-row cursor-pointer mix-blend-difference text-sm px-3 py-2 gap-x-1 rounded-full hover:bg-white/10 backdrop-blur-md transition duration-300 ease-in-out" rel="noopener noreferrer" href="https://drive.google.com/file/d/1GbxrSZrEf1vEV73KHfMF7ByaLrMAYRxw/view?usp=sharing" target="_blank">
               Resume
               <svg stroke="currentColor" fill="currentColor" strokeWidth="0" version="1.1" viewBox="0 0 17 17" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                 <g></g>
