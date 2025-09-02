@@ -435,7 +435,7 @@ export default function Home() {
                             <div>
                               <h5 className="font-bold text-lg heading">Overview</h5>
                               <p className="body-text ">
-                              Created a full-stack web app recommending movies based on user mood and language, where users can filiter movies based on various paramters
+                              Created a full-stack web app recommending movies based on user mood and language, where users can filter movies based on various paramaters
                               </p>
                             </div>
 
@@ -646,7 +646,7 @@ export default function Home() {
                             <div>
                               <h5 className="font-bold text-lg heading">Overview</h5>
                               <p className="body-text ">
-                              Created a full-stack web app recommending movies based on user mood and language, where users can filiter movies based on various paramters
+                              Created a starter porfolio  to showcase general skills and get propery web dev experience
                               </p>
                             </div>
 
