@@ -120,7 +120,7 @@ export default function Home() {
             <div className="col-span-12 p-4">
                 <a target="_blank" href="https://github.com/Neeloza115/ShortestPathsAnalyzer/tree/main" className="kill-link-style group">
                   <div
-                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small" style={{ ['--glow-r' as any]: 227, ['--glow-g' as any]: 116, ['--glow-b' as any]: 0 }}
+                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small" style={{'--glow-r': 227, '--glow-g': 116, '--glow-b': 0 } as React.CSSProperties}
                   >
                     <div className="flex flex-col justify-start w-full gap-y-2 pt-2 pb-4 px-2 md:pt-4 md:px-8 ">
                       <div className="flex flex-row justify-between items-left sm:items-center md:items-center w-full z-40 pointer-events-none">
@@ -214,7 +214,7 @@ export default function Home() {
             <div className="col-span-12 p-4">
                 <a target="_blank" href="https://github.com/Neeloza115/CollisionDetector" className="kill-link-style group">
                   <div
-                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small" style={{ ['--glow-r' as any]: 244, ['--glow-g' as any]: 180, ['--glow-b' as any]: 0 }}
+                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small" style={{ '--glow-r': 244, '--glow-g': 180, '--glow-b': 0 } as React.CSSProperties}
                   >
                     <div className="flex flex-col justify-start w-full gap-y-2 pt-2 pb-4 px-2 md:pt-4 md:px-8 ">
                       <div className="flex flex-row justify-between items-left sm:items-center md:items-center w-full z-40 pointer-events-none">
@@ -290,7 +290,7 @@ export default function Home() {
             </div>
             <div className="col-span-12 p-4">
               <a target="_blank" href="https://github.com/Neeloza115/MacEngComp24" className="kill-link-style group">
-                  <div className="matrix-container relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small"  style={{ ['--glow-r' as any]: 51, ['--glow-g' as any]: 184, ['--glow-b' as any]: 100 }} >
+                  <div className="matrix-container relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small"  style={{ '--glow-r': 51, '--glow-g': 184, '--glow-b': 100 } as React.CSSProperties} >
                     <div className="flex flex-col justify-start w-full gap-y-2 pt-2 pb-4 px-2 md:pt-4 md:px-8 ">
                       <div className="flex flex-row justify-between items-center w-full z-40 pointer-events-none">
                         <h3 className=' text-2xl md:text-4xl font-extrabold'>Cybersecurity System</h3>
@@ -403,7 +403,7 @@ export default function Home() {
             <div className="col-span-12 p-4">
               <a target="_blank" href="https://moodflix-2d6f5aefae7e.herokuapp.com/moodflix/" className="kill-link-style group">
                   <div
-                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small"  style={{ ['--glow-r' as any]: 255, ['--glow-g' as any]: 90, ['--glow-b' as any]: 90 }} 
+                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small"  style={{'--glow-r': 255, '--glow-g': 90, '--glow-b': 90 } as React.CSSProperties} 
                                 >
                     <div className="flex flex-col justify-start w-full gap-y-2 pt-2 pb-4 px-2 md:pt-4 md:px-8 ">
                       <div className="flex flex-row justify-between items-center w-full z-40 pointer-events-none">
@@ -504,7 +504,7 @@ export default function Home() {
             <div className="col-span-12 p-4">
               <a target="_blank" href="https://neelsweatherapp-b698795223.herokuapp.com/" className="kill-link-style group">
                   <div
-                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small" style={{ ['--glow-r' as any]: 92, ['--glow-g' as any]: 136, ['--glow-b' as any]: 218 }}
+                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small" style={{'--glow-r': 92, '--glow-g': 136, '--glow-b': 218 } as React.CSSProperties}
                   >
                     <div className="flex flex-col justify-start w-full gap-y-2 pt-2 pb-4 px-2 md:pt-4 md:px-8 ">
                       <div className="flex flex-row justify-between items-center w-full z-40 pointer-events-none">
@@ -611,7 +611,7 @@ export default function Home() {
             <div className="col-span-12 p-4">
               <a target="_blank" href="https://neeloza115.github.io" className="kill-link-style group">
                   <div
-                    className="relative cursor-pointer text-center md:text-start duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small group " style={{ ['--glow-r' as any]: 128 , ['--glow-g' as any]: 128, ['--glow-b' as any]: 128 }}
+                    className="relative cursor-pointer text-center md:text-start duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small group " style={{'--glow-r': 128 , '--glow-g': 128, '--glow-b': 128 } as React.CSSProperties}
                   >
                     <div className="flex flex-col justify-start w-full gap-y-2 pt-2 pb-4 px-2 md:pt-4 md:px-8 ">
                       <div className="flex flex-row justify-between items-center w-full z-40 pointer-events-none">

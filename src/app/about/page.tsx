@@ -11,6 +11,8 @@ import SCSS from "../../assets/scss-svgrepo-com.svg"
 import Zoho from "../../assets/zoho-svgrepo-com.svg";
 import "../../../src/app/globals.css";
 import { useEffect } from "react";
+import Image from "next/image";
+
 export default function Aboutpage () {
   useEffect(() => {
     // Glow hover setup
@@ -52,7 +54,7 @@ export default function Aboutpage () {
               <div className="flex flex-col md:flex-row gap-x-16 gap-y-8 w-full text-left text-gray-300">
                 <div className="flex flex-col gap-y-6 md:w-1/2 text-left">
                   <div>
-                    <img src={Profile.src} style={{borderRadius:"50%"}}></img>
+                    <Image alt ="" width={1200} height={400} src={Profile.src} style={{borderRadius:"50%"}}/>
                   </div>
                 </div>
                 <div className="flex flex-col gap-y-5 md:w-1/2 text-left pt-32">
@@ -71,7 +73,7 @@ export default function Aboutpage () {
               <div className="flex flex-col md:flex-row-reverse gap-x-16 gap-y-8 w-full text-left text-gray-300">
                 <div className="flex flex-col gap-y-6 md:w-1/2 text-right">
                   <div>
-                    <img src={McMaster.src} style={{borderRadius:"10%"}}></img>
+                    <Image width={1200} height={400} alt="" src={McMaster.src} style={{borderRadius:"10%"}}/>
                   </div>
                 </div>
                 <div className="flex flex-col gap-y-5 md:w-1/2 text-left pt-32">
@@ -90,7 +92,7 @@ export default function Aboutpage () {
               <div className="flex flex-col md:flex-row gap-x-16 gap-y-8 w-full text-left text-gray-300">
                 <div className="flex flex-col gap-y-6 md:w-1/2 text-left pt-14">
                   <div>
-                    <img src={Software.src} style={{borderRadius:"5%"}}></img>
+                    <Image width={1200} height={400} alt="" src={Software.src} style={{borderRadius:"5%"}} />
                   </div>
                 </div>
                 <div className="flex flex-col gap-y-5 md:w-1/2 text-left pt-16">
@@ -130,8 +132,7 @@ export default function Aboutpage () {
             <div className="col-span-12 p-4">
               <a target="_blank" href="" className="kill-link-style group">
                 <div
-                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 pb-10 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small" style={{ ['--glow-r' as any]: 255, ['--glow-g' as any]: 0, ['--glow-b' as any]: 0 }}
-                  >
+                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 pb-10 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small"  style={{'--glow-r': 255,'--glow-g': 0,'--glow-b': 0,} as React.CSSProperties}>
                     <div className="flex flex-col justify-start w-full gap-y-2 pt-2 px-2 md:pt-4 md:px-8 ">
                       <div className="flex flex-row justify-between items-center w-full z-40 pointer-events-none">
                         <h3 className=' text-2xl md:text-4xl font-extrabold'>Scotiabank</h3>
@@ -194,8 +195,8 @@ export default function Aboutpage () {
                                 </div>                         
                               </div>
                               <div className="relative inline-block group">
-                              < Pandas className="w-10 h-10" fill="currentColor" />
-                                <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-max px-2 py-1   text-sm rounded opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">
+                              <Pandas className="w-10 h-10" fill="currentColor" />
+                                <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-max px-2 py-1 text-sm rounded opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-200">
                                   Pandas
                                 </div>                         
                               </div>
@@ -210,8 +211,7 @@ export default function Aboutpage () {
             <div className="col-span-12 p-4">
               <a target="_blank" href="" className="kill-link-style group">
                 <div
-                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 pb-10 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small" style={{ ['--glow-r' as any]: 255, ['--glow-g' as any]: 140, ['--glow-b' as any]: 0 }}
-                  >
+                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 pb-10 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small" style={{  '--glow-r': 255,  '--glow-g': 140,  '--glow-b': 0,} as React.CSSProperties}>
                     <div className="flex flex-col justify-start w-full gap-y-2 pt-2 px-2 md:pt-4 md:px-8 ">
                       <div className="flex flex-row justify-between items-center w-full z-40 pointer-events-none">
                         <h3 className=' text-2xl md:text-4xl font-extrabold'>Quotograph.io</h3>
@@ -293,8 +293,7 @@ export default function Aboutpage () {
             <div className="col-span-12 p-4">
               <a target="_blank" href="" className="kill-link-style group">
                 <div
-                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 pb-10 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small" style={{ ['--glow-r' as any]: 75, ['--glow-g' as any]: 0, ['--glow-b' as any]: 130 }}
-                  >
+                    className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 pb-10 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small"  style={{'--glow-r': 130,'--glow-g': 0,'--glow-b': 75,} as React.CSSProperties}>
                     <div className="flex flex-col justify-start w-full gap-y-2 pt-2 px-2 md:pt-4 md:px-8 ">
                       <div className="flex flex-row justify-between items-center w-full z-40 pointer-events-none">
                         <h3 className=' text-2xl md:text-4xl font-extrabold'>Absolute Finance</h3>
