@@ -502,7 +502,7 @@ export default function Home() {
               </a>
             </div>
             <div className="col-span-12 p-4">
-              <a target="_blank" href="https://neelsweatherapp-b698795223.herokuapp.com/" className="kill-link-style group">
+              <a target="_blank" href="https://neelsweatherapp-b698fb795223.herokuapp.com" className="kill-link-style group">
                   <div
                     className="relative cursor-pointer text-left sm:text-center md:text-left duration-200 ease move-up-slightly hover:shadow-xl shadow-md p-2 md:p-4 w-full h-auto border-4 rounded-lg overflow-hidden glow-hover glow-hover-small" style={{'--glow-r': 92, '--glow-g': 136, '--glow-b': 218 } as React.CSSProperties}
                   >
