@@ -3,11 +3,7 @@
 import { useEffect, useState } from 'react';
 import { Moon, Sun } from 'lucide-react';
 
-interface DarkModeToggleProps {
-  className?: string;
-}
-
-export default function DarkModeToggle({ className }: DarkModeToggleProps) {
+export default function DarkModeToggle() {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {

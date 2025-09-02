@@ -98,7 +98,7 @@ export default function Home() {
             {/* Text Content */}
             <div className="pt-10">
               <h1 className="text-3xl sm:text-6xl lg:text-7xl font-bold">
-                <span className="typing-line block" >Hi, I'm <span>Neel.</span></span>
+                <span className="typing-line block" >Hi, I&apos;m <span>Neel.</span></span>
                 <span className="typing-line block mt-2">I like to{" "}
                   <span className="italic font-semibold">fix things</span>
                 </span>

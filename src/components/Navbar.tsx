@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <header className="flex fixed top-0 w-full flex items-center justify-center px-4 py-4 z-50">
       <div className="pointer-events-auto flex flex-row gap-x-2 items-center fixed sm:left-12 left-6">
-        <DarkModeToggle className="h-12 w-12 md:h-16 md:w-16" />
+        <DarkModeToggle/>
       </div>
       <div className="hidden md:flex flex-col fixed left-30 sm:left-30 w-45 rounded-full bg-white/10 backdrop-blur-sm py-1 px-3">
         <div className="font-semibold text-md ">Neel Oza</div>

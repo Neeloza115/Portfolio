@@ -1,6 +1,4 @@
 import "../../src/app/globals.css";
-import { useState } from 'react';
-import DarkModeToggle from './DarkModeToggle';
 
 export default function Footer() {
   return (
