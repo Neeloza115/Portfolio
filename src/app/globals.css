@@ -1,0 +1,357 @@
+@import "tailwindcss";
+
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --button-bg: #e2e8f0;     /* light gray for light mode */
+  --button-text: #000000;
+}
+
+.dark {
+  --bg-color: #121212;
+  --text-color: #f0f0f0;
+  --button-bg: #2d3748;     /* dark gray for dark mode */
+  --button-text: #ffffff;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+.heading {
+  color: #000;               /* light mode black */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.dark .heading {
+  color: #fff;               /* dark mode white */
+}
+
+/* Body text: medium gray in light, light gray in dark */
+.body-text {
+  color: #4b5563;             /* gray-600 light mode */
+  transition: color 0.3s ease;
+}
+
+.dark .body-text {
+  color: #d1d5db;             /* gray-300 dark mode */
+}
+
+/* Inline emphasis: slightly darker in light, lighter in dark */
+.body-text .highlight {
+  color: #374151;             /* gray-700 light mode */
+  font-weight: 500;
+}
+
+.dark .body-text .highlight {
+  color: #e5e7eb;             /* gray-200 dark mode */
+}
+
+/* Toggle Styles */
+.toggle {
+  display: flex;
+  background: #f1f5f9;
+  border-radius: 9999px;
+  padding: 0.25rem;
+  margin-bottom: 0.5rem;
+  margin-inline: auto;
+  width: fit-content;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.toggle:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.toggle-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: none;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  color: #64748b;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease;
+}
+
+.toggle-button.active {
+  color: var(--foreground);
+}
+
+.toggle-button:hover:not(.active) {
+  color: #4b5563; /* darker gray */
+}
+
+.toggle-slider {
+  position: absolute;
+  top: 0.25rem;
+  height: calc(100% - 0.5rem);
+  width: 40%;
+  border-radius: 9999px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateX(7.5%); /* Default for 'Work' */
+}
+
+.toggle-slider.right {
+  transform: translateX(142.5%);
+}
+
+.theme-toggle-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 9999px;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@keyframes typing {
+  from { width: 0; visibility: visible; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+  100% { border-color: white; }
+}
+
+.typing-line {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 4px solid white transparent;
+  width: 0;
+  animation:
+    typing 3s steps(20, end) forwards,
+    blink 0.75s step-end infinite;
+}
+
+/* stagger delays to type lines sequentially */
+.typing-line:nth-child(1) {
+  animation-delay: 0s, 0s;
+}
+.typing-line:nth-child(2) {
+  animation-delay: 3.5s, 3.5s; /* delay 1st line duration + small buffer */
+}
+
+.typing-line:nth-child(3) {
+  animation-delay: 5s, 5s;
+}
+
+
+.shine {
+  position: relative;
+  overflow: hidden;
+}
+
+.shine::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transform: skewX(-25deg);
+}
+
+.shine::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transform: skewX(-25deg);
+}
+
+.shine:hover::before {
+  animation: shine-animation 1s forwards;
+}
+
+@keyframes shine-animation {
+  100% {
+    left: 125%;
+  }
+}
+
+.glow-hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    circle 300px at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(var(--glow-r), var(--glow-g), var(--glow-b), 0.4),
+    transparent 60%
+  );
+  transition: opacity 0.2s ease;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .glow-hover:hover::before {
+    opacity: 1;
+}}
+
+
+@media (max-width: 767px) {
+  .glow-hover-small::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      circle 600px at top center,
+      rgba(var(--glow-r), var(--glow-g), var(--glow-b), 0.4),
+      transparent 60%
+    );
+    transition: opacity 0.2s ease;
+    opacity: 1;
+    pointer-events: none;
+  }
+}
+
+#clouds {
+  padding: 100px 0;
+  background: linear-gradient(to bottom, #c9dbe9 0%, #fff 100%);
+  position: relative;
+  overflow: hidden;
+  height: 300px; /* fix height so clouds have space */
+}
+
+.cloud {
+  position: absolute;
+  background: #fff;
+  width: 200px;
+  height: 60px;
+  border-radius: 200px;
+  animation-play-state: paused; /* default paused */
+}
+
+.cloud::before,
+.cloud::after {
+  content: '';
+  position: absolute;
+  background: #fff;
+  border-radius: 100px;
+}
+
+.cloud::before {
+  width: 100px;
+  height: 80px;
+  top: -15px;
+  left: 10px;
+  transform: rotate(30deg);
+}
+
+.cloud::after {
+  width: 120px;
+  height: 120px;
+  top: -55px;
+  right: 15px;
+}
+
+.x1 {
+  top: 50px;
+  animation: moveclouds 15s linear infinite;
+  left: 0;
+  animation-play-state: paused;
+}
+
+.x2 {
+  top: 100px;
+  left: 200px;
+  transform: scale(0.6);
+  opacity: 0.6;
+  animation: moveclouds 25s linear infinite;
+  animation-play-state: paused;
+}
+
+.x3 {
+  top: 0;
+  left: -250px;
+  transform: scale(0.8);
+  opacity: 0.8;
+  animation: moveclouds 20s linear infinite;
+  animation-play-state: paused;
+}
+
+.x4 {
+  top: -50px;
+  left: 470px;
+  transform: scale(0.75);
+  opacity: 0.75;
+  animation: moveclouds 18s linear infinite;
+  animation-play-state: paused;
+}
+
+.x5 {
+  top: -30px;
+  left: -150px;
+  transform: scale(0.8);
+  opacity: 0.8;
+  animation: moveclouds 20s linear infinite;
+  animation-play-state: paused;
+}
+
+/* On hover of container, run animations */
+.glow-hover:hover .cloud {
+  animation-play-state: running;
+}
+
+@keyframes moveclouds {
+  0% {
+    transform: translateX(1000px);
+  }
+  100% {
+    transform: translateX(-1000px);
+  }
+}
+
+.movie-rec {
+  width: 100%;
+  background-size: cover;
+  align-items: center;
+  overflow-x: hidden;
+  justify-content: center;
+  display: flex;
+  background-position: center;
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/f9368347-e982-4856-a5a4-396796381f28/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+/* Hide on small screens */
+@media (max-width: 768px) {
+  .movie-rec {
+    display: none;
+  }
+}
