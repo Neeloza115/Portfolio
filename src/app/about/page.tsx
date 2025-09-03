@@ -154,7 +154,7 @@ export default function Aboutpage () {
                             <div>
                               <h5 className="font-bold text-lg heading ">Timeline & Status</h5>
                               <p className="body-text ">
-                                <span className="highlight font-medium">On-going</span>, September 2024 - Present
+                                <span className="highlight font-medium">On-going</span>, September 2025 - Present
                               </p>
                             </div>
                           </div>
@@ -233,7 +233,7 @@ export default function Aboutpage () {
                             <div>
                               <h5 className="font-bold text-lg heading ">Timeline & Status</h5>
                               <p className="body-text ">
-                                <span className="highlight font-medium">Completed</span>, July 2024 - August 2024
+                                <span className="highlight font-medium">Completed</span>, July 2025 - August 2025
                               </p>
                             </div>
                           </div>
