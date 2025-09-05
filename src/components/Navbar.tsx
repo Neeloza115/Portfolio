@@ -75,7 +75,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a className="relative z-10 flex items-center flex-row cursor-pointer mix-blend-difference text-sm px-3 py-2 gap-x-1 rounded-full hover:bg-white/10 backdrop-blur-md transition duration-300 ease-in-out" rel="noopener noreferrer" href="https://drive.google.com/file/d/14Wi9lySQ0zNB808BRiUmkknFA9Ya3_OU/view?usp=sharing" target="_blank">
+            <a className="relative z-10 flex items-center flex-row cursor-pointer mix-blend-difference text-sm px-3 py-2 gap-x-1 rounded-full hover:bg-white/10 backdrop-blur-md transition duration-300 ease-in-out" rel="noopener noreferrer" href="https://drive.google.com/file/d/1thZ2Pq7X7lWnqj_JjOG16TiMZe8zLRko/view?usp=sharing" target="_blank">
               Resume
               <svg stroke="currentColor" fill="currentColor" strokeWidth="0" version="1.1" viewBox="0 0 17 17" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                 <g></g>
@@ -133,7 +133,7 @@ export default function Navbar() {
               <path d="M16 0.997v9.003h-1v-7.297l-10.317 10.297-0.707-0.708 10.315-10.295h-7.316v-1h9.025z"></path>
             </svg>
           </a>
-          <a className="flex flex-row w-full justify-between items-center" rel="noopener noreferrer" href="https://drive.google.com/file/d/14Wi9lySQ0zNB808BRiUmkknFA9Ya3_OU/view?usp=sharing" target="_blank">
+          <a className="flex flex-row w-full justify-between items-center" rel="noopener noreferrer" href="https://drive.google.com/file/d/1thZ2Pq7X7lWnqj_JjOG16TiMZe8zLRko/view?usp=sharing" target="_blank">
             <span className="flex flex-row justify-start items-center text-sm">Resume</span>
             <svg stroke="currentColor" fill="currentColor" strokeWidth="0" version="1.1" viewBox="0 0 17 17" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style={{ height: "0.875rem", width: "auto" }}>
               <g></g>
