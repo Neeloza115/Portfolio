@@ -616,10 +616,6 @@ export default function Home() {
                     <div className="flex flex-col justify-start w-full gap-y-2 pt-2 pb-4 px-2 md:pt-4 md:px-8 ">
                       <div className="flex flex-row justify-between items-center w-full z-40 pointer-events-none">
                         <h3 className=' text-2xl md:text-4xl font-extrabold'>First Portfolio Website</h3>
-                        <svg stroke="currentColor" fill="currentColor"  strokeWidth="0" version="1.1" viewBox="0 0 17 17" className="2xl:text-4xl text-2xl transition-all duration-200 ease-in group-hover:translate-x-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                          <g></g>
-                          <path d="M15.707 8.472l-7.354 7.354-0.707-0.707 6.146-6.146h-12.792v-1h12.793l-6.147-6.148 0.707-0.707 7.354 7.354z"></path>
-                        </svg>
                       </div>
                     </div>
                     <div className="flex flex-col justify-start items-start gap-x-16 w-page-default md:w-page-md lg:w-page-lg 2xl:w-page-2xl ">
