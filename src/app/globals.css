@@ -347,11 +347,24 @@ html {
   display: flex;
   background-position: center;
   background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/f9368347-e982-4856-a5a4-396796381f28/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.jpg);
-}
 
+}
 /* Hide on small screens */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .movie-rec {
     display: none;
   }
 }
+
+@media (max-width: 639px) {
+  .cards {
+    padding-bottom: 32px;
+  }
+}
+
+@media (max-width: 639px) {
+  .footer {
+    display: none;
+  }
+}
+
