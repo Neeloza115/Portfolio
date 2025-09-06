@@ -233,7 +233,7 @@ export default function Aboutpage () {
                             <div>
                               <h5 className="font-bold text-lg heading ">Timeline & Status</h5>
                               <p className="body-text ">
-                                <span className="highlight font-medium">Completed</span>, July 2025 - August 2025
+                                <span className="highlight font-medium">Completed</span>, May 2025 - August 2025
                               </p>
                             </div>
                           </div>
