@@ -368,3 +368,9 @@ html {
   }
 }
 
+
+@media (max-width: 400px) {
+  .about-title {
+    font-size: 26px;
+  }
+}

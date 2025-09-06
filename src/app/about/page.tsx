@@ -39,8 +39,8 @@ export default function Aboutpage () {
       <main className="max-w-4xl mx-auto px-4 py-20 relative bg-main-page-mobile md:bg-info-page bg-no-repeat flex flex-col justify-start items-center bg-custom-dark text-custom-light">
         <div className=" shine relative w-full  max-w-5xl rounded-xl border border-gray-700 p-8 md:p-12 shadow-[0_10px_30px_rgba(0,0,0,0.7)] hover:shadow-[0_10px_30px_rgba(51,184,100,0.7)] ">
             {/* Text Content */}
-          <div className="pt-10">
-            <h1 className="typing-line text-3xl sm:text-6xl lg:text-7xl font-bold">
+          <div className="pt-10 sm:pt-5">
+            <h1 className="typing-line about-title text-3xl sm:text-6xl lg:text-7xl font-bold">
               Some info
               <span className="typing-line mt-2 italic font-semibold">{" "}
                 about me
@@ -116,13 +116,13 @@ export default function Aboutpage () {
             <h2 className="typing-line-skills overflow-visible text-xl break-words break-normal whitespace-normal leading-relaxed">
               Formal Education in:  
               <span className="body-text overflow-visible">
-                Python, Java, SQL, C, Bash, Elm, Assembly, OOP, UML, SDLC, MATLAB, Git/Github
+                 Python, Java, SQL, C, Bash, Elm, Assembly, OOP, UML, SDLC, MATLAB, Git/Github
               </span>
             </h2>
             <h2 className="typing-line-skills text-xl break-words break-normal whitespace-normal leading-relaxed">
               Also skilled in: 
               <span className="body-text">
-                HTML, CSS, JavaScript, TypeScript, React, Next, Node, C++, FastAPI, Django, Power BI, Tableau, MS Suite
+                 HTML, CSS, JavaScript, TypeScript, React, Next, Node, C++, FastAPI, Django, Power BI, Tableau, MS Suite
               </span>
             </h2>
           </div>
@@ -226,7 +226,7 @@ export default function Aboutpage () {
                             <div>
                               <h5 className="font-bold text-lg heading ">My Role</h5>
                               <p className="body-text ">
-                                Full Stack Devevloper Intern
+                                Full Stack Developer Intern
                               </p>
                             </div>
 
