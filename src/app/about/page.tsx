@@ -80,7 +80,7 @@ export default function Aboutpage () {
                   <div>
                     <h5 className="font-bold text-lg heading">My Education</h5>
                     <p className="body-text ">
-                      In May 2027, I am set to graduate from Computer Science at McMaster University.
+                      In May 2028, I am set to graduate from Computer Science at McMaster University.
                     </p>
                   </div>
                 </div>
@@ -154,7 +154,7 @@ export default function Aboutpage () {
                             <div>
                               <h5 className="font-bold text-lg heading ">Timeline & Status</h5>
                               <p className="body-text ">
-                                <span className="highlight font-medium">On-going</span>, September 2025 - Present
+                                <span className="highlight font-medium">On-going</span>, September 2025 - Dec 2025
                               </p>
                             </div>
                           </div>
@@ -163,7 +163,7 @@ export default function Aboutpage () {
                             <div>
                               <h5 className="font-bold text-lg heading ">Overview</h5>
                               <p className="body-text ">
-                                Optimized SQL queries and ETL pipelines, and built scalable Power BI dashboards for data-driven decisions.   
+                                Optimized SQL queries and Python ETL pipelines, and improved operational efficiency at the bank.   
                               </p>
                             </div>
 

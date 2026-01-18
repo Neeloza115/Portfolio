@@ -105,9 +105,9 @@ export default function Home() {
               </h1>
 
               <span className="mt-6 text-lg font-mediumt yping-line block mt-3">
-                Data Analyst Intern at Scotiabank
+                Software Engineer Intern at Activision Blizzard
               </span>
-              <p className="mt-1 text-sm">Previously at Quotograph.io</p>
+              <p className="mt-1 text-sm">Previously at Scotiabank, Quotograph.io</p>
             </div>
           </div>
         </div>
