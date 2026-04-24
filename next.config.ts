@@ -1,6 +1,18 @@
 import { type NextConfig } from 'next';
 
+const projectRoot = process.cwd();
+
 const nextConfig: NextConfig = {
+  outputFileTracingRoot: projectRoot,
+  turbopack: {
+    root: projectRoot,
+    rules: {
+      '*.svg': {
+        loaders: ['@svgr/webpack'],
+        as: '*.js',
+      },
+    },
+  },
   webpack(config) {
     config.module.rules.push({
       test: /\.svg$/i,
@@ -8,23 +20,6 @@ const nextConfig: NextConfig = {
       use: ['@svgr/webpack'],
     });
     return config;
-  },
-
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "media.licdn.com",
-      },
-      {
-        protocol: "https",
-        hostname: "miro.medium.com", // Medium images
-      },
-      {
-        protocol: "https",
-        hostname: "static.vecteezy.com", // Vecteezy images
-      },
-    ],
   },
 };
 

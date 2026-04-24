@@ -8,15 +8,7 @@ export default function DarkModeToggle() {
 
   useEffect(() => {
     const root = window.document.documentElement;
-    const storedTheme = localStorage.getItem('theme');
-
-    if (storedTheme === 'dark') {
-      root.classList.add('dark');
-      setIsDark(true);
-    } else {
-      root.classList.remove('dark');
-      setIsDark(false);
-    }
+    setIsDark(root.classList.contains('dark'));
   }, []);
 
   const toggleTheme = () => {

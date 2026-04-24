@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <path
+    d="M21 48c-6.63 0-12-5.01-12-11.2 0-5.37 4.03-9.95 9.48-11.01C20.08 18.95 25.48 14 31.92 14c8.05 0 14.63 6.16 15.3 14.03C51.83 28.69 55 32.85 55 37.9 55 43.48 50.52 48 45 48H21Z"
+    fill="currentColor"
+    opacity=".14"
+  />
+  <path
+    d="M21 48c-6.63 0-12-5.01-12-11.2 0-5.37 4.03-9.95 9.48-11.01C20.08 18.95 25.48 14 31.92 14c8.05 0 14.63 6.16 15.3 14.03C51.83 28.69 55 32.85 55 37.9 55 43.48 50.52 48 45 48H21Z"
+    stroke="currentColor"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="3"
+  />
+  <g transform="rotate(-28 35 34)">
+    <rect x="24" y="30" width="20" height="7.5" rx="2" fill="currentColor" />
+    <rect x="21" y="31.1" width="4.8" height="5.3" rx="1.2" fill="currentColor" opacity=".8" />
+    <rect x="44.2" y="31.1" width="5.8" height="5.3" rx="1.2" fill="currentColor" />
+  </g>
+  <circle cx="33" cy="39" r="2.6" fill="currentColor" />
+  <path
+    d="M33 39v11M33 39 24 52M33 39l9 13"
+    stroke="currentColor"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="3"
+  />
+  <path
+    d="M49 14v6M46 17h6"
+    stroke="currentColor"
+    stroke-linecap="round"
+    stroke-width="3"
+  />
+</svg>
