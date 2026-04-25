@@ -1,5 +1,3 @@
-import "../../src/app/globals.css";
-
 export default function Footer() {
   return (
     <footer className="flex justify-center items-center relative bottom-0 bg-custom-dark text-custom-light border-t border-opacity-10 border-custom-light h-auto py-8">

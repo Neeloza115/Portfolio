@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import type { CSSProperties, RefObject } from 'react';
-import '../app/globals.css';
 import { useGlowHover } from '@/hooks/useGlowHover';
 import Reveal from '@/components/Reveal';
 import { TiltCard } from '@/components/TiltCard';

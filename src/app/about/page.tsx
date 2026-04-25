@@ -2,7 +2,6 @@
 
 import type { CSSProperties } from 'react';
 import Image, { type StaticImageData } from 'next/image';
-import '../../../src/app/globals.css';
 import Profile from '../../assets/pixelcut-export.png';
 import McMaster from '../../assets/imgbin-mcmaster-university-medical-centre-mcmaster-faculty-of-science-mcmaster-faculty-of-social-sciences-student-xNy2S8ZgpjF80csA4UuU4mjyM_t.jpg';
 import Software from '../../assets/software.png';

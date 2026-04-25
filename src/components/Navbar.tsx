@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import "../../src/app/globals.css";
 import { useEffect, useState } from 'react';
 import DarkModeToggle from './DarkModeToggle';
 
