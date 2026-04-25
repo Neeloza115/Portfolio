@@ -8,6 +8,7 @@ import McMaster from '../../assets/imgbin-mcmaster-university-medical-centre-mcm
 import Software from '../../assets/software.png';
 import { useGlowHover } from '@/hooks/useGlowHover';
 import Reveal from '@/components/Reveal';
+import { TiltCard } from '@/components/TiltCard';
 
 type StoryCard = {
   title: string;
@@ -159,9 +160,11 @@ function ExperienceSection({ company, glow, role, timeline, overview, stack }: E
   return (
     <div className="col-span-12 p-4">
       <Reveal>
-        <div
+        <TiltCard
           className="cards relative overflow-hidden rounded-lg border-4 p-2 shadow-md transition duration-200 ease hover:shadow-xl md:p-8 glow-hover glow-hover-small"
           style={glow}
+          tiltLimit={10}
+          scale={1.02}
         >
           <div className="flex flex-col justify-start gap-y-2 px-2 pb-4 pt-2 md:px-8 md:pt-4">
             <h3 className="text-2xl font-extrabold md:text-4xl">{company}</h3>
@@ -199,7 +202,7 @@ function ExperienceSection({ company, glow, role, timeline, overview, stack }: E
               </div>
             </div>
           </div>
-        </div>
+        </TiltCard>
       </Reveal>
     </div>
   );

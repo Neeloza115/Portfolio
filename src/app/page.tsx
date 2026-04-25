@@ -6,6 +6,7 @@ import type { CSSProperties, RefObject } from 'react';
 import '../app/globals.css';
 import { useGlowHover } from '@/hooks/useGlowHover';
 import Reveal from '@/components/Reveal';
+import { TiltCard } from '@/components/TiltCard';
 import courseRecommenderPreview from '@/assets/course-recommender-preview.png';
 
 type Project = {
@@ -236,9 +237,11 @@ function ProjectCard({
           href={project.href}
           className="kill-link-style group"
         >
-          <div
+          <TiltCard
             className="cards project-card relative cursor-pointer text-left rounded-lg border-4 p-2 shadow-md md:p-8 sm:p-8 glow-hover glow-hover-small overflow-hidden"
             style={project.glow}
+            tiltLimit={10}
+            scale={1.02}
           >
             <div className="flex flex-col justify-start gap-y-2 px-2 pb-4 pt-2 md:px-8 md:pt-4">
               <h3 className="text-2xl font-extrabold md:text-4xl">{project.title}</h3>
@@ -295,7 +298,7 @@ function ProjectCard({
                 matrixCanvasRef={matrixCanvasRef}
               />
             </div>
-          </div>
+          </TiltCard>
         </a>
       </Reveal>
     </div>
