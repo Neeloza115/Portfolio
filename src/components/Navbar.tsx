@@ -89,7 +89,7 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a className={`nav-action-link relative z-10 flex cursor-pointer flex-row items-center gap-x-1 rounded-full px-3 py-2 text-sm transition duration-300 ease-in-out ${isScrolled ? 'nav-action-link-settled' : ''}`} rel="noopener noreferrer" href="https://drive.google.com/file/d/1z_yPwyal5fSx4CvdctRsyt835w80UObI/view?usp=sharing" target="_blank">
+            <a className={`nav-action-link relative z-10 flex cursor-pointer flex-row items-center gap-x-1 rounded-full px-3 py-2 text-sm transition duration-300 ease-in-out ${isScrolled ? 'nav-action-link-settled' : ''}`} rel="noopener noreferrer" href="https://drive.google.com/file/d/1PD2C7OjLzXytncJ9UC2h5pw1NMw2z88f/view?usp=sharing" target="_blank">
               Resume
               <svg stroke="currentColor" fill="currentColor" strokeWidth="0" version="1.1" viewBox="0 0 17 17" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                 <g></g>
