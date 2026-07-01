@@ -21,15 +21,15 @@ type Project = {
 };
 
 const projects: Project[] = [
-    {
+  {
     title: 'Course Recommendation',
     href: 'https://course-recommendation-u3yt.onrender.com',
     glow: { '--glow-r': 204, '--glow-g': 0, '--glow-b': 0 } as CSSProperties,
     role: 'Software Developer',
     timeline: 'Completed: October 2025 - April 2026',
-    overview: 
-      "Built a full-stack course recommender that personalizes suggestions using TF-IDF–based ranking and user preferences, with a FastAPI backend and React frontend. Implemented caching and reranking to deliver fast, relevant recommendations based on difficulty, popularity, and user history.",
-    badges: [ 'React', 'FastAPI', 'Python', 'scikit-learn', 'SQL' ],
+    overview:
+      'Built a full-stack recommendation engine serving personalized results across a 4,000+ course catalog. Designed a two-stage TF-IDF retrieve-and-rank pipeline with ML reranking and an in-memory TTL cache that cut API latency by about 60% under load.',
+    badges: ['React', 'FastAPI', 'Python', 'scikit-learn', 'SQL'],
     preview: 'course',
   },
   {
@@ -56,15 +56,15 @@ const projects: Project[] = [
     preview: 'collision',
   },
   {
-    title: 'Cybersecurity System',
+    title: 'Secure Authentication',
     href: 'https://github.com/Neeloza115/MacEngComp24',
     glow: { '--glow-r': 51, '--glow-g': 184, '--glow-b': 100 } as CSSProperties,
-    role: 'Team Member - Developed facial recognition and encryption algorithms',
+    role: 'Team Member - Built facial recognition and encryption features',
     team: ['Harsh Shukla, Team Member', 'Dharav Shah, Team Member', 'Mahad Hassan, Team Member'],
-    timeline: 'Completed: December 2025',
+    timeline: '2nd Place @ MacEngComp 24',
     overview:
-      'Designed and built secure encryption software with facial-recognition support. Finished second out of 30+ teams.',
-    badges: ['Python', 'Flask', 'OpenCV', 'MySQL', 'GitHub'],
+      'Built a multi-factor authentication system combining AES-256 encrypted file storage, bcrypt credential hashing, and OpenCV facial recognition over a Flask REST API. Placed 2nd among 30+ teams.',
+    badges: ['Python', 'Flask', 'OpenCV', 'Cryptography', 'SQL'],
     preview: 'matrix',
   },
   {
@@ -407,9 +407,9 @@ export default function Home() {
                 </h1>
 
                 <span className="typing-line mt-3 block text-lg font-medium">
-                  Software Engineer Intern at Activision Blizzard
+                  Software Engineering Intern at Microsoft (Activision Blizzard)
                 </span>
-                <p className="mt-1 text-sm">Previously at Scotiabank and Quotograph.io</p>
+                <p className="mt-1 text-sm">Computer Science at McMaster University. Previously Data Engineer Intern at Scotiabank.</p>
               </div>
             </div>
           </div>

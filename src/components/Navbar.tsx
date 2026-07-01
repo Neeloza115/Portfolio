@@ -37,7 +37,7 @@ export default function Navbar() {
       </div>
       <div className={`hidden md:flex fixed left-30 sm:left-30 w-45 flex-col rounded-full py-1 px-3 ${isScrolled ? 'nav-badge nav-badge-settled' : 'nav-badge'}`}>
         <div className="font-semibold text-md ">Neel Oza</div>
-        <div className="text-xs whitespace-nowrap">Software Engineer Intern</div>
+        <div className="text-xs whitespace-nowrap">Software Engineering Intern</div>
       </div>
       <nav className={`nav-pill relative flex h-12 w-44 items-center justify-between overflow-hidden rounded-full text-sm ${isScrolled ? 'nav-pill-settled' : ''}`}>
         {/* Sliding Nav Indicator */}

@@ -30,14 +30,14 @@ const storyCards: StoryCard[] = [
   {
     title: 'About me',
     body:
-      'Welcome to my corner of the web. I enjoy solving difficult problems, learning quickly, and building systems that turn noisy signals into something genuinely useful.',
+      'Welcome to my corner of the web. I enjoy solving difficult problems, learning quickly, and building backend and data systems that turn noisy signals into something genuinely useful.',
     image: Profile,
     alt: 'Portrait of Neel Oza',
   },
   {
     title: 'My education',
     body:
-      'I am studying Computer Science at McMaster University and expect to graduate in May 2028. The program has pushed me across algorithms, systems, software design, and team-based project work.',
+      'I am studying Computer Science at McMaster University with a Math minor and expect to graduate in May 2027. The program has pushed me across algorithms, operating systems, databases, networks, distributed systems, and software design.',
     image: McMaster,
     alt: 'McMaster University campus',
     reverse: true,
@@ -54,70 +54,57 @@ const storyCards: StoryCard[] = [
 const formalSkills = [
   'Python',
   'Java',
+  'JavaScript',
+  'TypeScript',
   'SQL',
-  'C',
-  'Bash',
-  'Elm',
-  'Assembly',
-  'OOP',
-  'UML',
-  'SDLC',
-  'MATLAB',
-  'Git/GitHub',
+  'C/C++',
+  'Data Structures',
+  'Algorithms',
+  'Operating Systems',
+  'Databases',
+  'Distributed Systems',
 ];
 
 const practicalSkills = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
   'React',
   'Next.js',
   'Node.js',
-  'C++',
   'FastAPI',
-  'Django',
+  'Flask',
+  'Kafka',
+  'PySpark',
+  'Kubernetes',
+  'Docker',
+  'AWS',
+  'Jenkins',
+  'Databricks',
+  'Elasticsearch',
+  'PostgreSQL',
+  'MySQL',
+  'Prometheus',
+  'Grafana',
+  'Kibana',
   'Power BI',
-  'Tableau',
-  'MS Suite',
 ];
 
 const experiences: ExperienceCard[] = [
   {
-    company: 'Activision Blizzard',
+    company: 'Microsoft (Activision Blizzard)',
     glow: { '--glow-r': 128, '--glow-g': 128, '--glow-b': 128 } as CSSProperties,
     role: 'Software Engineering Intern',
     timeline: 'Ongoing: Jan 2026 - Aug 2026',
     overview:
-      'Built backend systems to accelerate incident response by analyzing logs and metrics, ranking likely root causes, and surfacing insights through real-time dashboards.',
-    stack: ['Python', 'Prometheus', 'Kubernetes', 'NumPy', 'Pandas'],
+      'Built production observability tooling across 100+ Call of Duty microservices, including Elasticsearch log ingestion, normalization, KNN-based root-cause ranking, and a self-service Python CLI adopted by 20+ engineering teams.',
+    stack: ['Python', 'Elasticsearch', 'Kubernetes', 'Jenkins', 'Kibana'],
   },
   {
     company: 'Scotiabank',
     glow: { '--glow-r': 255, '--glow-g': 0, '--glow-b': 0 } as CSSProperties,
-    role: 'Data Analyst Intern',
-    timeline: 'Completed: September 2025 - Dec 2025',
+    role: 'Data Engineer Intern',
+    timeline: 'Completed: Sept 2025 - Dec 2025',
     overview:
-      'Optimized SQL queries and Python ETL pipelines to improve operational efficiency and reporting quality across the team.',
-    stack: ['Python', 'SQL', 'Power BI', 'NumPy', 'Pandas'],
-  },
-  {
-    company: 'Quotograph.io',
-    glow: { '--glow-r': 255, '--glow-g': 140, '--glow-b': 0 } as CSSProperties,
-    role: 'Full Stack Developer Intern',
-    timeline: 'Completed: May 2025 - August 2025',
-    overview:
-      'Developed React browser games, integrated ML features, and improved performance through CI/CD and async API work.',
-    stack: ['Python', 'React', 'HTML5', 'JavaScript', 'SCSS'],
-  },
-  {
-    company: 'Absolute Finance',
-    glow: { '--glow-r': 130, '--glow-g': 0, '--glow-b': 75 } as CSSProperties,
-    role: 'Data Analyst Intern',
-    timeline: 'Completed: May 2025 - July 2025',
-    overview:
-      'Automated ETL pipelines with SQL and Deluge, built Zoho Analytics dashboards, and delivered insights to improve forecasting.',
-    stack: ['Python', 'SQL', 'Zoho'],
+      'Designed distributed PySpark ETL pipelines and scalable SQL data models for insurance reporting, improved reporting throughput by 40%, reduced dashboard latency by about 3x, and migrated legacy SAS pipelines to Python services.',
+    stack: ['Python', 'PySpark', 'SQL', 'Power BI', 'Databricks'],
   },
 ];
 

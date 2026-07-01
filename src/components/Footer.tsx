@@ -69,7 +69,7 @@ export default function Footer() {
                               </div>
                             </div>
         <div className="p-4 text-xl md:text-xl text-center">
-          Last updated April 24, 2026
+          Last updated June 30, 2026
         </div>
       </div>
     </footer>
